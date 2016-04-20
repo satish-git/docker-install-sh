@@ -24,13 +24,13 @@ sudo service docker restart
 #------------------------------------------
 # Uninstallation
 #To uninstall the Docker package:
-#  sudo apt-get purge docker-engine
+#  sudo apt-get purge -y docker-engine
 
 #To uninstall the Docker package and dependencies that are no longer needed:
-# sudo apt-get autoremove --purge docker-engine
+# sudo apt-get autoremove --purge -y docker-engine
 
 #The above commands will not remove images, containers, volumes, or user created configuration files on your host. If you wish to delete all images, containers, and volumes run the following command:
-# rm -rf /var/lib/docker
+# sudo rm -rf /var/lib/docker
 #------------------------------------------
 
 #Reboot your host.
